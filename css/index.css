@@ -1,3 +1,313 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here! */
+
+.container {
+    width: 900px;
+    margin: 5px auto;
+}
+
+* {
+    /*   font-size: 16px; */
+}
+
+.navicon {
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 25px;
+    padding: 15px;
+}
+
+.logo {
+    width: 190px;
+    display: flex;
+    justify-content: flex-end;
+    align-item: flex-start;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    width: 305px;
+    font-size: 75px;
+    text-align: center;
+    margin: 0px 0pc 0px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    /*   display: inline-block; */
+    /*   padding: 10px 55px; */
+    /*   background: white;
+  border: 1px solid;
+  font-size: 18px;
+  font-family: sans-serif; */
+    /*   margin-left: 125px;
+  margin-bottom: 25px;
+  margin-top: 5px; */
+}
+
+.circle {
+    width: 350px;
+    display: flex;
+    margin: 5px;
+}
+
+.button1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.button2 {
+    width: 175px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: white;
+    border: 1px solid;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid black;
+    padding-bottom: 40px;
+}
+
+.half {
+    width: 400px;
+    height: 150px;
+    padding-top: 40px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    /*   margin: 75px; */
+    /*   box-sizing: border-box; */
+    /*   padding: 15px; */
+    /*   padding-left: 55px; */
+    /*   text-align: left; */
+}
+
+.half p {
+    width: 450px;
+    padding: 5px;
+}
+
+.middle-img {
+    display: flex;
+    justify-content: center;
+    margin: 15px 125px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.thrice {
+    width: 333.33px;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-content: row;
+    flex-wrap: wrap;
+    /*   margin: 70px; */
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+footer {
+    padding-top: 40px;
+}
